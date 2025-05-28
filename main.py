@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from scripts.handlers.handler import router as file_router
 from scripts.database.database import create_db_and_tables
 
-app = FastAPI(root_path="/app")
+app = FastAPI(root_path="/gateway/plugin/project-139/fastapi-plugin/api")
 
 @app.on_event("startup")
 def on_startup():
